@@ -1,5 +1,7 @@
-# GreyBox releases
+# Tullo releases
 
-Installers for GreyBox, a board app for the files on your PC.
+Installers for [Tullo](https://tullo.io), a board app for the files on your PC.
 
-GreyBox checks this page for updates (Settings → Check for updates…). To install by hand, download `GreyBox-Setup-X.exe` from the newest release and run it.
+Tullo checks this page for updates (Settings → Check for updates…). To install by hand, download `Tullo-Setup-X.exe` from the newest release and run it.
+
+Versions before 0.21.0 were called GreyBox.
