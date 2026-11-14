@@ -6,13 +6,14 @@ Tullo is a Windows app for arranging the files, folders, photos, links and notes
 
 ## The short version
 
-- Your boards, files and notes stay on your PC. Tullo does not upload them.
+- Without an account, everything stays on your PC.
 - An account is optional. If you create one, Tullo stores your name, email address and profile picture so it can sign you in.
+- Signed in, Tullo syncs your boards and the photos copied onto them between your PCs through your account. You can switch this off. The files and folders you link are never uploaded.
 - Tullo has no ads, no analytics and no tracking, and we never sell your information.
 
-## Information that stays on your PC
+## Information on your PC
 
-Everything you put on a board stays in your Documents folder (`Documents\Tullo`) and Tullo's settings folder on your PC: the boards, the paths of the files and folders you link, copied photos, thumbnails, notes and settings. None of it is sent to us.
+Everything you put on a board is kept in your Documents folder (`Documents\Tullo`) and Tullo's settings folder on your PC: the boards, the paths of the files and folders you link, copied photos, thumbnails, notes and settings. If you're not signed in, none of it is sent to us. If you are, a copy of your boards goes to your account, as described under *Syncing*.
 
 ## Accounts (optional)
 
@@ -33,9 +34,22 @@ Account information is stored by [Supabase](https://supabase.com), the service T
 
 Tullo's use and transfer of information received from Google APIs follows the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. We use the name, email address and profile picture Google provides only to sign you in to Tullo. We do not use them for advertising, do not sell them, and do not share them except as described in this policy.
 
-## Syncing
+## Syncing (when you're signed in)
 
-Tullo does not sync your boards yet. Before it does, this policy will be updated to explain what is stored online and how, and syncing will be something you choose to turn on.
+When you're signed in, Tullo keeps your projects the same on every PC signed in to your account. Syncing is on by default once you sign in. You can switch it off in Settings → Account (*Sync boards between your PCs*), or for one project with the switch on its card. If you're signed out, nothing is synced.
+
+What is stored in your account:
+
+- **Your boards and project list:** project names, notes and text, web links, how the cards are arranged, and the locations (paths) of the files and folders you've linked.
+- **Each project's own files:** photos copied onto a board, page snapshots of web links, and thumbnails.
+- **Your PCs' names:** the name of each PC you use Tullo on (from Settings → General, or Windows' name for it) and a random ID for it, so a board can show which PC a file is on.
+
+What is not stored there:
+
+- **The files and folders you link.** Tullo stores only where they are, not what's in them.
+- **Some details that stay on each PC:** where you're looking on each board, and the fingerprints Tullo uses to find a file that has moved.
+
+This information is stored by [Supabase](https://supabase.com) and locked to your account, so only you can read or change it. When you delete a project, its board is removed from your account. Its name stays, marked as deleted, so your other PCs delete it too. Signing out keeps everything on your PC and stops syncing it.
 
 ## Other connections Tullo makes
 
@@ -45,11 +59,11 @@ Tullo does not sync your boards yet. Before it does, this policy will be updated
 
 ## Who we share information with
 
-We share account information only with the services needed to run Tullo's sign-in: Supabase, and the sign-in provider you choose (such as Google). We may also disclose information if the law requires it. We never sell your information.
+We share information only with the services needed to run Tullo's accounts and syncing: Supabase, which stores your account and your synced boards, and the sign-in provider you choose (such as Google), which gets only what's needed to sign you in. We may also disclose information if the law requires it. We never sell your information.
 
 ## Keeping and deleting your information
 
-We keep your account information for as long as you have an account. To delete your account and the information stored with it, email us at the address below and we will delete it within 30 days.
+We keep your account information and synced boards for as long as you have an account. To delete your account and everything stored with it, including your synced boards and files, email us at the address below and we will delete it within 30 days. The copies on your PCs stay until you delete them there.
 
 ## Children
 
